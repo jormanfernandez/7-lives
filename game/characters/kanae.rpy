@@ -1,0 +1,28 @@
+define my_kanae = Character("Kanae", color="#2d0244")
+
+image my_kanae angry = "kanae/mine/angry.png"
+image my_kanae blushed = "kanae/mine/blushed.png"
+image my_kanae blushed bigsmile = "kanae/mine/blushed-big-smile.png"
+image my_kanae blushed happy = "kanae/mine/blushed-happy.png"
+image my_kanae blushed scar = "kanae/mine/blushed-scar.png"
+image my_kanae blushed smiling = "kanae/mine/blushed-smiling.png"
+image my_kanae face_destroyed = "kanae/mine/face-destroyed.png"
+image my_kanae halfdream = "kanae/mine/halfdream.png"
+image my_kanae speaking = "kanae/mine/happy.png"
+image my_kanae mad = "kanae/mine/mad.png"
+image my_kanae mad talking = "kanae/mine/mad-talking.png"
+image my_kanae normal = "kanae/mine/normal.png"
+image my_kanae sad = "kanae/mine/sad.png"
+image my_kanae worried soft = "kanae/mine/soft-worried.png"
+image my_kanae surprised = "kanae/mine/surprised.png"
+
+define kanae_alt = Character("Kanae", color="#7d7d7d")
+image kanae_alt big smile = "kanae/alt/big-smile.png"
+image kanae_alt calm happy = "kanae/alt/calm-happy.png"
+image kanae_alt calm speak = "kanae/alt/calm-speak.png"
+image kanae_alt focus = "kanae/alt/focus.png"
+image kanae_alt loud speaking = "kanae/alt/loud-speaking.png"
+image kanae_alt normal = "kanae/alt/normal.png"
+image kanae_alt sad = "kanae/alt/sad.png"
+image kanae_alt speaking = "kanae/alt/speaking.png"
+image kanae_alt surprised = "kanae/alt/surprised.png"

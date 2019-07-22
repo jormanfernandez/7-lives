@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/stages/day3.rpy", line 1002: expected end of line
+    stop music fadoeut 1.0
+               ^
+
+Ren'Py Version: Ren'Py 7.1.3.1092
+Sat Mar 16 18:50:44 2019

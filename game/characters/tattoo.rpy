@@ -1,0 +1,1 @@
+image tattoo = "tattoo.png"

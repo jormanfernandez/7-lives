@@ -1,0 +1,1 @@
+image phone normal = "phone/normal.png"

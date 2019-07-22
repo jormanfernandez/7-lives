@@ -1,0 +1,41 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/stages/day0.rpy", line 495, in script call
+    call day1 from _call_day1
+  File "game/stages/day1.rpy", line 1030, in script call
+    call day2 from _call_day2
+  File "game/tl/spanish/stages/day2.rpy", line 1147, in script
+    "No había nada qué decir. Estabamos como en el inicio... no, peor, ni siquiera ten{iamos una falsa esperanza."
+Exception: Open text tag at end of string u'No hab\xeda nada qu\xe9 decir. Estabamos como en el inicio... no, peor, ni siquiera ten{iamos una falsa esperanza.'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/stages/day0.rpy", line 495, in script call
+    call day1 from _call_day1
+  File "game/stages/day1.rpy", line 1030, in script call
+    call day2 from _call_day2
+  File "game/tl/spanish/stages/day2.rpy", line 1147, in script
+    "No había nada qué decir. Estabamos como en el inicio... no, peor, ni siquiera ten{iamos una falsa esperanza."
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\ast.py", line 678, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\exports.py", line 1229, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\character.py", line 1031, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\character.py", line 823, in do_display
+    **display_args)
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\character.py", line 556, in display_say
+    what_text.update()
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\text\text.py", line 1631, in update
+    tokens = self.tokenize(text)
+  File "C:\Users\usuario\Downloads\renpy\renpy-7.1.3-sdk\renpy\text\text.py", line 2067, in tokenize
+    tokens.extend(textsupport.tokenize(i))
+  File "textsupport.pyx", line 122, in renpy.text.textsupport.tokenize
+Exception: Open text tag at end of string u'No hab\xeda nada qu\xe9 decir. Estabamos como en el inicio... no, peor, ni siquiera ten{iamos una falsa esperanza.'.
+
+Windows-8-6.2.9200
+Ren'Py 7.1.3.1092
+7 Lives 1.0.1
+Wed Mar 27 21:01:54 2019

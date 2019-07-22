@@ -1,0 +1,1 @@
+image thing normal = "thing/normal.png"
